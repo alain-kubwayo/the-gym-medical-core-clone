@@ -18,5 +18,3 @@ A landing page of Medical Core built as part of an exercise from <a href="https:
 ## Hosting
 
 Check out the hosted page <a href="" target="_blank">here</a>
-
-[Hello, world!](http://example.com/){target="_blank"}
