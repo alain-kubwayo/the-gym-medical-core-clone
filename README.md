@@ -17,4 +17,4 @@ A landing page of Medical Core built as part of an exercise from <a href="https:
 
 ## Hosting
 
-Check out the hosted page <a href="" target="_blank">here</a>
+Coming soon...
