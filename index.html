@@ -34,7 +34,7 @@
             <!-- Header Body -->
             <div class="header__body">
                 <h2 class="title title--small">Welcome</h2>
-                <h2 class="title title--big">A Great Place to <br>
+                <h2 class="title title--big">A Great Place to <br class="line-break">
                     Receive Care
                 </h2>
                 <p class="header__text">Get your best looking smile now!</p>
@@ -47,8 +47,8 @@
         <!-- Main -->
         <div class="main">
             <div class="main__experts">
-                <div class="main__image">
-                    <img src="./assets/main-doctor.png" alt="A lady doctor with a pacemaker">
+                <div class="main__img-container">
+                    <img class="main__img" src="./assets/main-doctor.png" alt="Female doctor with a pacemaker">
                 </div>
                 <div class="main__content">
                     <div class="main__rule">
@@ -60,10 +60,10 @@
                         the two major realms of Classical physics: <br>
                         Newtonian mechanics 
                     </p>
-                    <button class="btn">
-                        Learn More
+                    <button class="btn btn--main">
+                        <span>Learn More</span>
                         <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.680771 0.680771C0.737928 0.623469 0.805828 0.578007 0.880583 0.546987C0.955337 0.515967 1.03548 0.5 1.11641 0.5C1.19735 0.5 1.27749 0.515967 1.35224 0.546987C1.427 0.578007 1.4949 0.623469 1.55205 0.680771L8.9358 8.06452C8.9931 8.12168 9.03857 8.18958 9.06959 8.26433C9.10061 8.33909 9.11657 8.41923 9.11657 8.50016C9.11657 8.5811 9.10061 8.66123 9.06959 8.73599C9.03857 8.81074 8.9931 8.87864 8.9358 8.9358L1.55205 16.3196C1.43651 16.4351 1.27981 16.5 1.11641 16.5C0.953015 16.5 0.79631 16.4351 0.680771 16.3196C0.565232 16.204 0.500322 16.0473 0.500322 15.8839C0.500322 15.7205 0.565232 15.5638 0.680771 15.4483L7.63011 8.50016L0.680771 1.55205C0.623469 1.4949 0.578006 1.427 0.546986 1.35224C0.515967 1.27749 0.5 1.19735 0.5 1.11641C0.5 1.03548 0.515967 0.955338 0.546986 0.880583C0.578006 0.805829 0.623469 0.737928 0.680771 0.680771Z" fill="#1BA0AB"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.680771 0.680771C0.737928 0.623469 0.805828 0.578007 0.880583 0.546987C0.955337 0.515967 1.03548 0.5 1.11641 0.5C1.19735 0.5 1.27749 0.515967 1.35224 0.546987C1.427 0.578007 1.4949 0.623469 1.55205 0.680771L8.9358 8.06452C8.9931 8.12168 9.03857 8.18958 9.06959 8.26433C9.10061 8.33909 9.11657 8.41923 9.11657 8.50016C9.11657 8.5811 9.10061 8.66124 9.06959 8.73599C9.03857 8.81074 8.9931 8.87865 8.9358 8.9358L1.55205 16.3196C1.43651 16.4351 1.27981 16.5 1.11641 16.5C0.953015 16.5 0.79631 16.4351 0.680771 16.3196C0.565232 16.204 0.500322 16.0473 0.500322 15.8839C0.500322 15.7205 0.565232 15.5638 0.680771 15.4483L7.63011 8.50016L0.680771 1.55205C0.623469 1.4949 0.578006 1.427 0.546986 1.35224C0.515967 1.27749 0.5 1.19735 0.5 1.11641C0.5 1.03548 0.515967 0.955338 0.546986 0.880583C0.578006 0.805829 0.623469 0.737928 0.680771 0.680771V0.680771Z" fill="#1BA0AB"/>
                         </svg>
                     </button>
                 </div>
@@ -186,16 +186,20 @@
             </div>
         </div>
         <!-- Footer -->
-        <div>
-            <h3 class="title title--small">Newsletter</h3>
-            <h1 class="title title--large">JOIN US</h1>
-            <p>Problems trying to resolve the conflict between 
-                the two major realms of Classical physics: Newtonian mechanics 
-            </p>
-            <form>
-                <input type="text" placeholder="Your Email">
-                <button class="cta-btn">Subscribe</button>
-            </form>
+        <div class="footer">
+            <div class="footer__container">
+                <div class="footer__desc">
+                    <h3 class="title title--small">Newsletter</h3>
+                    <h1 class="title title--big">JOIN US</h1>
+                    <p class="footer__text">Problems trying to resolve the conflict between <br>
+                        the two major realms of Classical physics: Newtonian mechanics 
+                    </p>
+                </div> 
+                <form class="form">
+                    <input class="form__input" type="text" placeholder="Your Email">
+                    <button class="btn btn--form">Subscribe</button>
+                </form>
+            </div>
         </div>
     </body>
 </html>
