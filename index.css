@@ -75,6 +75,10 @@
     color: #1BA0AB;
 }
 
+.btn--secondary-inactive{
+    border: none;
+}
+
 .btn--main{
     color: #1BA0AB;
     padding: 0;
@@ -198,27 +202,28 @@
     letter-spacing: 0.2px;
 }
 
-/** MAIN CARDS */
-.cards{
+/* MAIN CARDS */
+
+.deck{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 40px;
     margin-top: 80px;
 }
 
-.cards__card{
+.card{
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
 
 }
 
-.cards__img{
+.card__img{
     width: 100%;
     display: block;
     border-radius: 20px 20px 0 0;
 }
 
-.cards__details{
+.card__details{
     padding: 20px 10px;
     display: flex;
     gap: 10px;
@@ -226,7 +231,7 @@
     align-items: center;
 }
 
-.cards__text{
+.card__text{
     font-size: 12px;
     line-height: 16px;
     font-weight: 400;
@@ -234,14 +239,14 @@
     color:  #737373;
 }
 
-.cards__socials{
+.card__socials{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
 }
 
-/** Footer */
+/* Footer */
 .footer{
     background: #FFF5F0;
     padding: 60px 0 40px 0;
@@ -256,13 +261,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.footer__text{
-    font-weight: 400px;
-    font-size: 14px;
-    letter-spacing: 0.2px;
-    color: #737373;
 }
 
 .form{
