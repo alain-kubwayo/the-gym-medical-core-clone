@@ -60,38 +60,35 @@
     padding: 15px 25px;
     border-radius: 5px;
     cursor: pointer;
-    background: #1BA0AB;
-    border: none;
     color: #FFF;
-}
-
-.btn--main{
-    background: #FFF;
-}
-
-.btn--secondary{
-    background: #FFF5F0;
-    border: 1px solid #1BA0AB;
-    color: #1BA0AB;
-}
-
-.btn--secondary-inactive{
     border: none;
 }
 
-.btn--main{
-    color: #1BA0AB;
-    padding: 0;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
+.btn--fill{
+    background: #1BA0AB;
 }
 
-.btn--cta{
+.btn--no-fill{
+    background: none;
+    color: #1BA0AB;
+}
+
+.btn--bordered{
+    border: 1px solid #1BA0AB;
+}
+
+.btn--text-uppercase{
+    text-transform: uppercase;
+}
+
+.btn--rounded-half{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.btn--flexed{
     display: flex;
-    gap: 10px;
     align-items: center;
+    gap: 14px;
 }
 
 /* HEADER BODY */
@@ -195,13 +192,6 @@
     gap: 10px;
 }
 
-.main__text{
-    color: #737373;
-    font-weight: 400px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-}
-
 /* MAIN CARDS */
 
 .deck{
@@ -282,8 +272,12 @@
     padding: 15px 25px;
 }
 
-.btn--form{
-    border-radius: 0px 5px 5px 0px;
+.footer__text{
+    color: #737373;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
 }
 
 
