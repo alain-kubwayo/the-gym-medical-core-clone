@@ -11,10 +11,15 @@ A landing page of Medical Core built as part of an exercise from <a href="https:
 * HTML
 * CSS
 
+## Tools
+
+* VSCode
+* Firebase (for hosting)
+
 ## Methodology
 
 * <a href="https://getbem.com/" target="_blank">BEM</a>: A naming convention standard for CSS class names
 
 ## Hosting
 
-Coming soon...
+Click [here](https://medical-core-fa994.web.app/) to view the project hosted with Firebase. 
